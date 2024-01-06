@@ -28,8 +28,7 @@ class Deck:
     """
     This is the Deck Class. This object will create a deck of cards to initiate
     play. You can then use this Deck list of cards to split in half and give to
-    the players. It will use SUITE and RANKS to create the deck. It should also
-    have a method for splitting/cutting the deck in half and Shuffling the deck.
+    the players. It will use SUITE and RANKS to create the deck. 
     """
     def __init__(self):
         print ("Creating New Ordered Deck!")
@@ -47,7 +46,7 @@ class Deck:
 class Hand:
     '''
     This is the Hand class. Each player has a Hand, and can add or remove
-    cards from that hand. There should be an add and remove card method here.
+    cards from that hand. 
     '''
     def __init__ (self,cards):
         self.cards = cards
